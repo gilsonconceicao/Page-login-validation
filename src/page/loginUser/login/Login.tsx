@@ -1,14 +1,14 @@
 import React from 'react'
-import Form from '../form/Form'
+import FormLogin from '../form/FormLogin'
 
 import styles from './Login.module.css'; 
 
 const Login = () => {
   return (
-    <div className={styles.container_login}>
+    <div className='containerForm'>
       <h1>Entrar com a sua conta.</h1>
       <p>Basta preencher o <strong>email</strong> e a sua <strong>senha</strong> para prosseguir.</p>  
-      <Form/>  
+      <FormLogin/>  
     </div>
   )
 }

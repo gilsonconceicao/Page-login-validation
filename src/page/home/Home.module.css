@@ -1,0 +1,18 @@
+.button_actions {
+    background-color: #4680d8;
+    color: #fff;
+    display: block;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.226)00;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 200px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+}

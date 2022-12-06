@@ -23,3 +23,9 @@ code {
   padding: 4px 2px;
   margin: 0;
 }
+
+.containerForm {
+  display: block;
+  max-width: 400px;
+  margin: 20vh auto 0 auto;
+}
