@@ -9,6 +9,9 @@ used in the project
 - resolvers(yupResolver); 
 - yup( string, object, shape ); 
 
+> ## new update
+now with a registration form, allows you to create a user and login. 
+
 image the interface of form. 
 
 [view image](https://github.com/gilsonconceicao/Page-login-validation/blob/main/src/assets/image/page%20login.PNG)
