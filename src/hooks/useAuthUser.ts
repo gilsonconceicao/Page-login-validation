@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 export function useAuthUser () {
     const [isLogged, setIsLogged] = useState<boolean | null>(true); 
+    
     const [userCameIn, setUserCameIn] = useState<boolean | null>(true);
   
     useEffect(() => {
@@ -15,7 +16,6 @@ export function useAuthUser () {
       }
       checkedIsUser()
     }, [])
-
 
     return {isLogged, userCameIn}
 }
