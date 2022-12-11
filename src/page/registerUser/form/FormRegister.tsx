@@ -5,7 +5,7 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 //validation
 import { useForm, useFormState } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-import { schemaValidation } from '../../loginUser/form/Schema/validation';
+import { schemaValidation} from './Schema/validationRegister'
 // component
 import TextFieldForm from '../../../components/textField/TextField';
 

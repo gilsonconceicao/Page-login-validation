@@ -31,7 +31,7 @@ const FormLogin = () => {
 
   const onSubmit = (data: FieldValues) => {
     if (storagePeople.email === data.email && storagePeople.password === data.password) {
-      window.location.href = '/home';
+      window.location.href = '/';
 
       localStorage.setItem('@userCamein',JSON.stringify({
         email: data.email, 
